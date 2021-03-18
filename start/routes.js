@@ -24,4 +24,5 @@ Route.post('/empresa-list', 'EmpresaController.listaEmpresa');
 Route.post('/empresa-find-by-id', 'EmpresaController.getEmpresaById');
 Route.post('/empresa-delete', 'EmpresaController.deleteEmpresa');
 Route.post('/empresa-insert', 'EmpresaController.insertEmpresa').validator('CreateEmpresa');
+Route.post('/empresa-update', 'EmpresaController.updateEmpresa');
 Route.post('/empresa-search', 'EmpresaController.searchEmpresa');
